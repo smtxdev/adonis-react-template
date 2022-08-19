@@ -1,0 +1,14 @@
+{
+	"apps": [
+		{
+			"name": "server",
+			"script": "./build/server.js",
+			"watch": false,
+			"watch_options": {
+				"usePolling": false
+			},
+      "instances": "max",
+      "exec_mode": "cluster"
+		}
+	]
+}

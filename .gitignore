@@ -1,0 +1,15 @@
+node_modules
+build
+coverage
+.vscode
+.DS_STORE
+.env
+tmp
+# other settings...
+mix-manifest.json
+hot
+public/js/*
+public/css/*
+public/**/*_js*
+docker/db_data/*
+!docker/db_data/empty
